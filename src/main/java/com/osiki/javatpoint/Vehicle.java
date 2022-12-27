@@ -1,2 +1,8 @@
-package com.osiki.javatpoint;public class Vehicle {
+package com.osiki.javatpoint;
+
+public class Vehicle {
+    void run(){
+        System.out.println("vehicle is running");
+    }
 }
+

@@ -1,2 +1,5 @@
-package com.osiki.javatpoint;public class Shape {
+package com.osiki.javatpoint;
+
+public abstract class Shape {
+    abstract void draw();
 }
