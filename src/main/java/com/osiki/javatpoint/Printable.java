@@ -1,2 +1,5 @@
-package com.osiki.javatpoint;public interface Printable {
+package com.osiki.javatpoint;
+
+public interface Printable {
+    void print();
 }

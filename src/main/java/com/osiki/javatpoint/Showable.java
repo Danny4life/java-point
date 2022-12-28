@@ -1,2 +1,5 @@
-package com.osiki.javatpoint;public interface Showable {
+package com.osiki.javatpoint;
+
+public interface Showable {
+    void show();
 }
