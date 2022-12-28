@@ -37,4 +37,17 @@ public class Account2 {
     public void setAmt(float amt) {
         this.amt = amt;
     }
+
+    public static void main(String[] args) {
+        Account2 acc = new Account2();
+
+        acc.setAcc_no(1234567890);
+        acc.setAccName("segun");
+        acc.setEmail("seg@gmail.com");
+        acc.setAmt(50000);
+
+        System.out.println(acc.getAccName() + " " + "account number is:" +
+                          " " + acc.getAcc_no() + ", " + "with email:" +
+                            " " + acc.getEmail() + " " + "with account balance of:" + acc.getAmt());
+    }
 }
