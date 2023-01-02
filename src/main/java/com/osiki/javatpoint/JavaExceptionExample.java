@@ -7,7 +7,7 @@ public class JavaExceptionExample {
 
 
         try {
-            int data = 50/0;
+            int data = 10/0;
             System.out.println(data);
 
 
