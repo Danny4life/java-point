@@ -5,9 +5,9 @@ import java.io.IOException;
 public class TestChild extends Parent {
 
     @Override
-    void msg() {
+    void msg() throws IOException {
         super.msg();
 
-        throw new ArithmeticException();
+
     }
 }
