@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileOutputStream1 {
     public static void main(String[] args) {
         try {
-            FileOutputStream four = new FileOutputStream("D:\\testout.txt");
+            FileOutputStream four = new FileOutputStream("/Users/decagon/Desktop/testout.txt");
             four.write(64);
             four.close();
             System.out.println("success");
