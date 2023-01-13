@@ -8,6 +8,7 @@ public class FileWritteExample {
         try {
             FileWriter fw = new FileWriter("text.txt");
             fw.write("i LOVE java");
+            fw.close();
         }catch (Exception e){
             System.out.println(e);
             System.out.println("success");
