@@ -18,6 +18,7 @@ public class Persist {
             out.close();
 
             System.out.println("sucesss");
+            System.out.println(out);
 
         }catch (Exception e){
             System.out.println(e);
