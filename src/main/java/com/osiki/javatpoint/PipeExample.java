@@ -16,10 +16,13 @@ public class PipeExample {
             public void run() {
                 try {
                     output.write("Hello world, pipe!".getBytes());
+
                 }catch (IOException e){
                     System.out.println(e);
                 }
+
             }
+
         });
 
         Thread thread2 = new Thread(new Runnable() {
@@ -30,6 +33,7 @@ public class PipeExample {
                     while (data != -1){
                         System.out.println((char) data);
                         data = input.read();
+
                     }
                 }catch (IOException e){
                     System.out.println(e);
@@ -41,6 +45,7 @@ public class PipeExample {
         thread2.start();
         input.connect(output);
         output.connect(input);
+
 
     }
 }
