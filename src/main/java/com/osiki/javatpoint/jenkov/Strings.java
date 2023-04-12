@@ -1,5 +1,7 @@
 package com.osiki.javatpoint.jenkov;
 
+import java.util.Arrays;
+
 public class Strings {
     public static void main(String[] args) {
         String[] str = {"one", "two", "three", "four"};
@@ -28,8 +30,29 @@ public class Strings {
         String tr = "    he ran over here   ";
         String res = tr.trim();
 
-        System.out.println(tr);
-        System.out.println(res);
+//        System.out.println(tr);
+//        System.out.println(res);
+
+        String spl = "A man drove a car";
+        String[] spl1 = spl.split(",");
+
+//        System.out.println(Arrays.toString(spl1));
+//        System.out.println(spl.charAt(0));
+
+        String input = "Hello %s";
+        String output = String.format("world");
+
+        //System.out.println(output);
+
+        int num = 10;
+        for(int i = 0; i < num; i++){
+            //System.out.println(i);
+        }
+
+        while (num < 20){
+            System.out.println(num);
+            num++;
+        }
 
 
     }
