@@ -1,6 +1,6 @@
 package com.osiki.javatpoint.jenkov;
 
-public class MyClass {
+public class MyClass{
 
       private int num1 = 5;
       private int num2 = 10;
