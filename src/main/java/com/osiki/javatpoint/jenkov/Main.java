@@ -22,6 +22,8 @@ public class Main {
         System.out.println("min value = " + min);
         System.out.println("max value = " + max);
 
+       enums enums = com.osiki.javatpoint.jenkov.enums.HIGH;
+
 
     }
 
